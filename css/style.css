@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Open+Sans&display=swap');
+
+/*general*/
+header, main, footer {
+    margin: 3rem;
+}
+
+.product figure{
+    height: 242px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/*styling main nav*/
+nav > ul {
+    width: 20rem;
+    display: flex;
+}
+
+nav > ul li {
+    display: inline;
+}
+
+nav > ul li a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav > ul li a:hover {
+    background-color: #aaa;
+}
+
+header {
+    background-image: url("../images/background_image.jpg");
+    margin: 0;
+    padding: 35px;
+}
+
+nav ul{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.nav-item {
+    margin-left: 10px;
+}
+
+nav ul li a{
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 7px;
+    transition-duration: 0.25s;
+    margin-left: 10px;
+
+}
+
+.dropdown > ul {
+    top: auto;
+    left: 0;
+}
+
+
+/*styling dropdown list-item*/
+.dropdown {
+    position: relative;
+}
+
+/*hide the nested list by default*/
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    top: auto;
+    left: 0;
+}
+
+.dropdown > ul a {
+    margin-top: 6px;
+
+}
+
+/*if dropdown list-item is hovered
+display the nested list*/
+.dropdown:hover > ul {
+    display: block;
+}
+
+/*while the dropdown is hovered
+keep the main link highlighted*/
+.dropdown:hover > a {
+    background-color: #aaa;
+}
+
+.dropdown ul a {
+    display: block;
+    padding: 1rem 3rem;
+    background-color: #aaa;
+}
+
+.dropdown ul a:hover {
+    color: white;
+    background-color: #565656;
+}
+
+footer{
+    background-color: skyblue;
+    margin: 0;
+    padding: 3rem;
+}
+
+
+footer .col-3{
+    text-align: center;
+    padding: 10px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+footer .col-3 a{
+    text-decoration: none;
+    padding: 6px;
+    background-color: white;
+    border-radius: 3px;
+    color: darkgrey;
+    transition-duration: 0.5s;
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+footer .col-3 a:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: skyblue;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons button{
+    margin: 10px;
+
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+.row{
+    justify-content: center;
+}
+
+.wind_energy, .solar_energy{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
